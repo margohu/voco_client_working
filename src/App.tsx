@@ -5,7 +5,6 @@ import { disconnectSocket, connectToServer } from './socket-service';
 
 function App() {
     useEffect(() => {
-
         connectToServer();
         return () => {
             disconnectSocket();

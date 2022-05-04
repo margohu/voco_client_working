@@ -12,7 +12,6 @@ function Chat() {
   useEffect(() => {
     setMessages(data);
   }, []);
-
   const submitMessage = () => {
     setMessages([...messages, {
       message,

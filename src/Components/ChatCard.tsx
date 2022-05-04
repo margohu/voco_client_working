@@ -5,7 +5,6 @@ export interface ChatCardProps {
     date: string;
     message: string;
 }
-
 export interface WebSocketProps {
     data: string;
 }
