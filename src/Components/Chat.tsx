@@ -65,7 +65,6 @@ function Chat() {
           onChange={(e: React.ChangeEvent<HTMLInputElement>) => setMessage(e.target.value)}
           value={message}
         />
-
         <button
           type="submit"
           onClick={() => {
